@@ -1,0 +1,13 @@
+h1,h2
+{
+    background-color: teal;
+    color: cornsilk;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0%;
+}
+h4
+{
+    background-color: darkgray;
+    display: inline-block;
+}

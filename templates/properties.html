@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+    <center>
+        <h1>Applying properties to the html page</h1><br>
+        <h2>we stored properties in css folder of static</h2><br>
+        <img src="{{url_for('static',filename='images/winter.jpg')}}" alt="" srcset="" height="500px">
+<br><br> 
+        <h4><a href="{{url_for('send_html')}}">Navigate to send_html page</a></h4>
+    </center>
+</body>
+</html>
